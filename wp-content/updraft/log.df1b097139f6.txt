@@ -1,0 +1,943 @@
+0000.001 (0) Opened log file at time: Sat, 08 Jul 2023 07:47:28 +0000 on http://localhost/wordpress-6.2.2/wordpress
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 5.1M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.018 (0) Free space on disk containing Updraft's temporary directory: 68177.1 MB
+0000.027 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.035 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.108 (0) Semaphore (fd, wp_options) being initialised
+0000.132 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.154 (0) Set semaphore last lock (fd) time to 2023-07-08 07:47:28
+0000.160 (0) Semaphore lock (fd) complete
+0000.183 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0000.197 (0) Backup run: resumption=0, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (0s ago), job type=backup
+0000.204 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0000.217 (0) Scheduling a resumption (1) after 300 seconds (1688802748) in case this run gets aborted
+0000.347 (0) Checking if we have a zip executable available
+0000.353 (0) Testing: /usr/bin/zip
+0000.374 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.381 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.387 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.394 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.401 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.427 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.435 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.502 (0) Working binary zip found: /usr/bin/zip
+0000.510 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0000.523 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.529 (0) Creation of backups of directories: beginning
+0000.536 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0000.555 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0000.575 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.585 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0001.155 (0) Total entities for the zip file: 767 directories, 4088 files (0 skipped as non-modified), 49.4 MB
+0001.168 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.186 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.198 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.212 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.226 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.238 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.251 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.265 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.278 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.291 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.297 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9 MB, 4088 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.156 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0003.173 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0003.178 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: size is now: 3.30 MB
+0003.185 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0003.203 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1100 files added (on-disk size: 3418.3 KB)
+0003.217 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1200 files added (on-disk size: 3418.3 KB)
+0003.230 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1300 files added (on-disk size: 3418.3 KB)
+0003.246 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1400 files added (on-disk size: 3418.3 KB)
+0003.261 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1500 files added (on-disk size: 3418.3 KB)
+0003.271 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1600 files added (on-disk size: 3418.3 KB)
+0003.283 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1700 files added (on-disk size: 3418.3 KB)
+0003.295 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1800 files added (on-disk size: 3418.3 KB)
+0003.307 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 1900 files added (on-disk size: 3418.3 KB)
+0003.319 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2000 files added (on-disk size: 3418.3 KB)
+0003.325 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.7 MB, 4088 files batched, 1001 (2002) added so far); re-opening (prior size: 3418.3 KB)
+0008.973 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: size is now: 8.90 MB
+0008.983 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0009.010 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2100 files added (on-disk size: 9063.5 KB)
+0009.031 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2200 files added (on-disk size: 9063.5 KB)
+0009.055 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2300 files added (on-disk size: 9063.5 KB)
+0009.078 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2400 files added (on-disk size: 9063.5 KB)
+0009.104 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2500 files added (on-disk size: 9063.5 KB)
+0009.129 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2600 files added (on-disk size: 9063.5 KB)
+0009.151 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2700 files added (on-disk size: 9063.5 KB)
+0009.173 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2800 files added (on-disk size: 9063.5 KB)
+0009.201 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 2900 files added (on-disk size: 9063.5 KB)
+0009.226 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3000 files added (on-disk size: 9063.5 KB)
+0009.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.8 MB, 4088 files batched, 1001 (3003) added so far); re-opening (prior size: 9063.5 KB)
+0012.546 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: size is now: 11.70 MB
+0012.557 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0012.607 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3100 files added (on-disk size: 12006.9 KB)
+0012.630 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3200 files added (on-disk size: 12006.9 KB)
+0012.659 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3300 files added (on-disk size: 12006.9 KB)
+0012.674 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3400 files added (on-disk size: 12006.9 KB)
+0012.692 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3500 files added (on-disk size: 12006.9 KB)
+0012.707 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3600 files added (on-disk size: 12006.9 KB)
+0012.724 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3700 files added (on-disk size: 12006.9 KB)
+0012.738 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3800 files added (on-disk size: 12006.9 KB)
+0012.755 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 3900 files added (on-disk size: 12006.9 KB)
+0012.771 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: 4000 files added (on-disk size: 12006.9 KB)
+0012.779 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.2 MB, 4088 files batched, 1001 (4004) added so far); re-opening (prior size: 12006.9 KB)
+0014.483 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp: size is now: 14.20 MB
+0014.494 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0015.842 (0) PHP event: code E_WARNING: filesize(): stat failed for /var/www/html/wordpress-6.2.2/wordpress/wp-content/updraft/backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0015.861 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.069 (0) Creating zip file manifest (backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip.list-temp.tmp)
+0016.133 (0) Successfully created zip file manifest (size: 352523)
+0016.411 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.875 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.887 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.898 (0) Created plugins zip (0) - 15785.5 KB in 16.3 s (968.3 KB/s) (sha1: f6d8c516fd4f0b426dd6ea0dbaff75b3e037d95b, sha256: 0be11bcdfc4465c5cc21eee88b1b0fed6c0959bc252ce4b3f16a7b3e41c721af)
+0016.923 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.940 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.949 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0016.956 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0016.968 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0016.981 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0016.987 (0) An error condition has occurred for the first time during this job
+0016.995 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0017.016 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0017.026 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.036 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0017.268 (0) Total entities for the zip file: 381 directories, 1051 files (0 skipped as non-modified), 29.6 MB
+0017.283 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.298 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.309 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.321 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.341 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0017.355 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0017.371 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0017.383 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0017.394 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0017.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 1051 files batched, 952 (952) added so far); re-opening (prior size: 0 KB)
+0023.331 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0023.470 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: size is now: 11.80 MB
+0023.477 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0023.490 (0) A useful amount of data was added after this amount of zip processing: 7.2 s (normalised: 7.1 s, rate: 3595.9 KB/s)
+0023.497 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0023.514 (0) Zip: backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: 1000 files added (on-disk size: 12059.4 KB)
+0024.289 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.tmp: size is now: 15.70 MB
+0024.302 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0024.404 (0) Creating zip file manifest (backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip.list-temp.tmp)
+0024.470 (0) Successfully created zip file manifest (size: 86194)
+0024.733 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.365 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.390 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.400 (0) Created themes zip (0) - 16068.6 KB in 8.4 s (1923.7 KB/s) (sha1: bdd909fa1e99ffc04425859d898b112be618b6e8, sha256: 51bc46b50bf0cb9dd045b3b3b85c63890fa9077a2f869573ebd09d3e56f44c4d)
+0025.420 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.438 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.446 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0025.463 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0025.474 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.505 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.517 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0025.523 (0) Looking for candidates to backup in: /var/www/html/wordpress-6.2.2/wordpress/wp-content/uploads
+0025.531 (0) finding files: ithemes-security: adding to list (1)
+0025.537 (0) finding files: 2023: adding to list (2)
+0025.550 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0025.567 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.591 (0) Total entities for the zip file: 5 directories, 2 files (0 skipped as non-modified), 0 MB
+0025.630 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip.tmp: size is now: 0.00 MB
+0025.643 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.667 (0) Creating zip file manifest (backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip.list-temp.tmp)
+0025.675 (0) Successfully created zip file manifest (size: 129)
+0025.685 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.707 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.723 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.734 (0) Created uploads zip (0) - 1.3 KB in 0.2 s (8.6 KB/s) (sha1: 7abf6e759ef046cd331b3908dd469134fa4cff84, sha256: 0722755f74eb9f155b97286871483eefe61b1460beb6cfbed83b366153daaa69)
+0025.746 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.767 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.775 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0025.792 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0025.805 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.828 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.839 (0) Beginning backup of other directories found in the content directory (index: 0)
+0025.845 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0025.852 (0) Looking for candidates to backup in: /var/www/html/wordpress-6.2.2/wordpress/wp-content
+0025.859 (0) finding files: themes: skipping: this is the themes directory
+0025.869 (0) finding files: upgrade: skipping: excluded by options
+0025.877 (0) finding files: plugins: skipping: this is the plugins directory
+0025.883 (0) finding files: uploads: skipping: this is the uploads directory
+0025.890 (0) finding files: updraft: skipping: this is the updraft directory
+0025.897 (0) finding files: index.php: adding to list (1)
+0025.909 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.928 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0025.958 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip.tmp: size is now: 0.00 MB
+0025.971 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0025.990 (0) Creating zip file manifest (backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip.list-temp.tmp)
+0025.999 (0) Successfully created zip file manifest (size: 43)
+0026.009 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.031 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.045 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.056 (0) Created others zip (0) - 0.2 KB in 0.1 s (1.4 KB/s) (sha1: 95815ff312263442a70e94ab4bc7f46eaee0dd8e, sha256: 302ad5a2cd9bfa3aa4cf094f94f2afba92d03fb7d7b70cc673fe56b9ca9ee1b6)
+0026.067 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.086 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0026.095 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0026.109 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0026.121 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.142 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.155 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.171 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.184 (0) Saving backup status to database (elements: 8)
+0026.204 (0) Beginning creation of database dump (WordPress DB)
+0026.213 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0026.222 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.240 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0026.469 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1557 bytes total)
+0026.481 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0026.490 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.526 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.579 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.591 (0) Table wp_options: Total expected rows (via COUNT): 240
+0026.599 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.608 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.686 (0) Table wp_options: Rows added in this batch (next record: 336): 236 (uncompressed bytes in this segment=213764) in 0.13 seconds
+0026.694 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.721 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.736 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.749 (0) Table wp_options: finishing file(s) (2, 42.2 KB)
+0026.758 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.803 (0) Table wp_users: Total expected rows (via COUNT): 1
+0026.812 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.820 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.843 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1408) in 0.05 seconds
+0026.854 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.875 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.887 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0026.896 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.942 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0026.960 (0) Table wp_usermeta: Total expected rows (via COUNT): 20
+0026.967 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.979 (0) Table wp_usermeta: Rows added in this batch (next record: 21): 20 (uncompressed bytes in this segment=2337) in 0.05 seconds
+0026.988 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.011 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.026 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.039 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0027.048 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.101 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.115 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0027.126 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.146 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.07 seconds
+0027.156 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.181 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.196 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.209 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0027.218 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.271 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0027.279 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.289 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.315 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2121) in 0.07 seconds
+0027.326 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.347 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.366 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0027.375 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.426 (0) Table wp_itsec_bans: Total expected rows (via COUNT): 0
+0027.435 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.456 (0) Table wp_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.04 seconds
+0027.467 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.487 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.500 (0) Table wp_itsec_bans: finishing file(s) (2, 0.4 KB)
+0027.508 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.555 (0) Table wp_itsec_dashboard_events: Total expected rows (via COUNT): 0
+0027.565 (0) Table wp_itsec_dashboard_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=808) in 0.02 seconds
+0027.575 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.597 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.607 (0) Table wp_itsec_dashboard_events: finishing file(s) (2, 0.4 KB)
+0027.618 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.684 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.694 (0) Table wp_itsec_distributed_storage: Total expected rows (via COUNT): 0
+0027.705 (0) Table wp_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=907) in 0.04 seconds
+0027.713 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.735 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.748 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.761 (0) Table wp_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0027.771 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.830 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.840 (0) Table wp_itsec_fingerprints: Total expected rows (via COUNT): 0
+0027.850 (0) Table wp_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.05 seconds
+0027.860 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.880 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.891 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.901 (0) Table wp_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0027.911 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0027.959 (0) Table wp_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0027.975 (0) Table wp_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=933) in 0.03 seconds
+0027.991 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.017 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.031 (0) Table wp_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0028.044 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.097 (0) Table wp_itsec_lockouts: Total expected rows (via COUNT): 0
+0028.108 (0) Table wp_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1198) in 0.02 seconds
+0028.118 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.143 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.158 (0) Table wp_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0028.169 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.237 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.255 (0) Table wp_itsec_logs: Total expected rows (via COUNT): 0
+0028.271 (0) Table wp_itsec_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1440) in 0.07 seconds
+0028.286 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.317 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.335 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.359 (0) Table wp_itsec_logs: finishing file(s) (2, 0.5 KB)
+0028.368 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.423 (0) Table wp_itsec_mutexes: Total expected rows (via COUNT): 0
+0028.435 (0) Table wp_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=609) in 0.03 seconds
+0028.448 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.488 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.502 (0) Table wp_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0028.514 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.589 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0028.614 (0) Table wp_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=767) in 0.05 seconds
+0028.628 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.655 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.670 (0) Table wp_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0028.682 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.745 (0) Table wp_itsec_temp: Total expected rows (via COUNT): 0
+0028.757 (0) Table wp_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=895) in 0.04 seconds
+0028.771 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.797 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.811 (0) Table wp_itsec_temp: finishing file(s) (2, 0.4 KB)
+0028.821 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.869 (0) Table wp_itsec_user_groups: Total expected rows (approximate): 0
+0028.881 (0) Table wp_itsec_user_groups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=838) in 0.03 seconds
+0028.890 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.912 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.924 (0) Table wp_itsec_user_groups: finishing file(s) (2, 0.4 KB)
+0028.933 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0028.988 (0) Table wp_links: Total expected rows (via COUNT): 0
+0028.998 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.03 seconds
+0029.008 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.030 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.042 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0029.051 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.090 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.100 (0) Table wp_postmeta: Total expected rows (via COUNT): 2
+0029.107 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.115 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.131 (0) Table wp_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=782) in 0.05 seconds
+0029.138 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.154 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.166 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.175 (0) Table wp_postmeta: finishing file(s) (2, 0.4 KB)
+0029.182 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.220 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.230 (0) Table wp_posts: Total expected rows (via COUNT): 4
+0029.237 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.245 (0) Table wp_posts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=9830) in 0.04 seconds
+0029.253 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.273 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.283 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.294 (0) Table wp_posts: finishing file(s) (2, 3 KB)
+0029.302 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.339 (0) Table wp_term_relationships: Total expected rows (approximate): 0
+0029.346 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.374 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=690) in 0.04 seconds
+0029.382 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.402 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.412 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0029.419 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.453 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.463 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0029.470 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.477 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.494 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=910) in 0.05 seconds
+0029.504 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.526 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.536 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.545 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0029.553 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.592 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.603 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0029.610 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.628 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.05 seconds
+0029.635 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.652 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.663 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.676 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0029.684 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.719 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0029.727 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.739 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.758 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=728) in 0.05 seconds
+0029.767 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.784 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.792 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0029.800 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.843 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.854 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 9
+0029.860 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.873 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=7911) in 0.05 seconds
+0029.883 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.903 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.914 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.924 (0) Table wp_yoast_indexable: finishing file(s) (2, 1.7 KB)
+0029.931 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.960 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 5
+0029.967 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0029.995 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=874) in 0.04 seconds
+0030.002 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.020 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.030 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0030.037 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.078 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0030.084 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.092 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.113 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1261) in 0.05 seconds
+0030.123 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.150 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.163 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0030.171 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.212 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0030.220 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.236 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=842) in 0.04 seconds
+0030.245 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.266 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.277 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0030.286 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.325 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 1
+0030.334 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.346 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.369 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1131) in 0.06 seconds
+0030.382 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.406 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0030.419 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0030.426 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wordpress-6.2.2/wordpress/wp-content/updraft/backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0030.441 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_options.table.tmpr337.gz (1/28/fopen): adding to final database dump
+0030.453 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_options.table.gz (2/28/fopen): adding to final database dump
+0030.461 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_users.table.tmpr2.gz (3/28/fopen): adding to final database dump
+0030.470 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_users.table.gz (4/28/fopen): adding to final database dump
+0030.478 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_usermeta.table.tmpr22.gz (5/28/fopen): adding to final database dump
+0030.486 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_usermeta.table.gz (6/28/fopen): adding to final database dump
+0030.494 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_commentmeta.table.tmpr0.gz (7/28/fopen): adding to final database dump
+0030.522 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_commentmeta.table.gz (8/28/fopen): adding to final database dump
+0030.531 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_comments.table.tmpr2.gz (9/28/fopen): adding to final database dump
+0030.541 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_comments.table.gz (10/28/fopen): adding to final database dump
+0030.547 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_bans.table.tmpr0.gz (11/28/fopen): adding to final database dump
+0030.555 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_bans.table.gz (12/28/fopen): adding to final database dump
+0030.561 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_dashboard_events.table.tmpr0.gz (13/28/fopen): adding to final database dump
+0030.574 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_dashboard_events.table.gz (14/28/fopen): adding to final database dump
+0030.602 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_distributed_storage.table.tmpr0.gz (15/28/fopen): adding to final database dump
+0030.610 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_distributed_storage.table.gz (16/28/fopen): adding to final database dump
+0030.617 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_fingerprints.table.tmpr0.gz (17/28/fopen): adding to final database dump
+0030.624 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_fingerprints.table.gz (18/28/fopen): adding to final database dump
+0030.632 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_geolocation_cache.table.tmpr0.gz (19/28/fopen): adding to final database dump
+0030.637 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_geolocation_cache.table.gz (20/28/fopen): adding to final database dump
+0030.644 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_lockouts.table.tmpr0.gz (21/28/fopen): adding to final database dump
+0030.651 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_lockouts.table.gz (22/28/fopen): adding to final database dump
+0030.658 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_logs.table.tmpr0.gz (23/28/fopen): adding to final database dump
+0030.670 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_logs.table.gz (24/28/fopen): adding to final database dump
+0030.678 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_mutexes.table.tmpr0.gz (25/28/fopen): adding to final database dump
+0030.687 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_mutexes.table.gz (26/28/fopen): adding to final database dump
+0030.694 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_opaque_tokens.table.tmpr1.gz (27/28/fopen): adding to final database dump
+0030.702 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_opaque_tokens.table.gz (28/28/fopen): adding to final database dump
+0030.714 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_temp.table.tmpr0.gz (29/28/fopen): adding to final database dump
+0030.726 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_temp.table.gz (30/28/fopen): adding to final database dump
+0030.736 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_user_groups.table.tmpr1.gz (31/28/fopen): adding to final database dump
+0030.754 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_itsec_user_groups.table.gz (32/28/fopen): adding to final database dump
+0030.763 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_links.table.tmpr0.gz (33/28/fopen): adding to final database dump
+0030.782 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_links.table.gz (34/28/fopen): adding to final database dump
+0030.791 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_postmeta.table.tmpr3.gz (35/28/fopen): adding to final database dump
+0030.800 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_postmeta.table.gz (36/28/fopen): adding to final database dump
+0030.808 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_posts.table.tmpr5.gz (37/28/fopen): adding to final database dump
+0030.828 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_posts.table.gz (38/28/fopen): adding to final database dump
+0030.836 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_term_relationships.table.tmpr100001.gz (39/28/fopen): adding to final database dump
+0030.846 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_term_relationships.table.gz (40/28/fopen): adding to final database dump
+0030.856 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_term_taxonomy.table.tmpr2.gz (41/28/fopen): adding to final database dump
+0030.865 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_term_taxonomy.table.gz (42/28/fopen): adding to final database dump
+0030.888 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_termmeta.table.tmpr0.gz (43/28/fopen): adding to final database dump
+0030.899 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_termmeta.table.gz (44/28/fopen): adding to final database dump
+0030.909 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_terms.table.tmpr2.gz (45/28/fopen): adding to final database dump
+0030.923 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_terms.table.gz (46/28/fopen): adding to final database dump
+0030.935 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_indexable.table.tmpr10.gz (47/28/fopen): adding to final database dump
+0030.947 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_indexable.table.gz (48/28/fopen): adding to final database dump
+0030.959 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (49/28/fopen): adding to final database dump
+0030.970 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_indexable_hierarchy.table.gz (50/28/fopen): adding to final database dump
+0030.981 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_migrations.table.tmpr25.gz (51/28/fopen): adding to final database dump
+0030.998 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_migrations.table.gz (52/28/fopen): adding to final database dump
+0031.013 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_primary_term.table.tmpr0.gz (53/28/fopen): adding to final database dump
+0031.023 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_primary_term.table.gz (54/28/fopen): adding to final database dump
+0031.034 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_seo_links.table.tmpr2.gz (55/28/fopen): adding to final database dump
+0031.044 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db-table-wp_yoast_seo_links.table.gz (56/28/fopen): adding to final database dump
+0031.123 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: finished writing out complete database file (58.8 KB)
+0031.144 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.171 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.189 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.202 (0) Total database tables backed up: 28 (backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz, size: 60359, sha1: e5fc16914e9189c886dce3f76534f455f0bdb2c2, sha256: b9c1982991c49b25d311199c7b3e640001c267421072a7794ae6f3341747880a)
+0031.213 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.328 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0031.339 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0031.350 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0031.359 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0031.368 (0) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0031.378 (0) Saving backup history. Total backup size: 31.2 MB
+0031.410 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0031.424 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.462 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.478 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.490 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0031.514 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0031.527 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.564 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0031.584 (0) Number of backup sets in history: 1; groups (db): 1
+0031.594 (0) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+0031.604 (0) This backup set is the backup set just made, so will not be deleted.
+0031.605 (0) Number of backup sets in history: 1; groups (files): 1
+0031.613 (0) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+0031.613 (0) This backup set is the backup set just made, so will not be deleted.
+0031.620 (0) This backup set is the backup set just made, so will not be deleted.
+0031.621 (0) This backup set is the backup set just made, so will not be deleted.
+0031.621 (0) This backup set is the backup set just made, so will not be deleted.
+0031.622 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0031.629 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0031.642 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.664 (0) Resume backup (df1b097139f6, 0): finish run
+0031.693 (0) Decremented the semaphore (fd) by 1
+0031.709 (0) Semaphore (fd) unlocked
+0031.718 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0031.726 (0) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0031.748 (0) No email will/can be sent - the user has not configured an email address.
+0031.756 (0) The backup has not finished; a resumption is scheduled
+0348.498 (1) Opened log file at time: Sat, 08 Jul 2023 07:53:17 +0000 on http://localhost/wordpress-6.2.2/wordpress
+0348.509 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.9M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+0348.518 (1) Free space on disk containing Updraft's temporary directory: 68141.8 MB
+0348.533 (1) Requesting backup semaphore lock (df1b097139f6)
+0348.555 (1) [Debug] Lock option (updraft_lock_df1b097139f6, wp_options) was created in the database
+0348.562 (1) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired after initialising the database
+0348.573 (1) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0348.601 (1) Backup run: resumption=1, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (349s ago), job type=backup, previous check-in=30.4s
+0348.610 (1) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0348.643 (1) Scheduling a resumption (2) after 300 seconds (1688803097) in case this run gets aborted
+0348.663 (1) Checking if we have a zip executable available
+0348.670 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0348.678 (1) Creation of backups of directories: already finished
+0348.686 (1) Saving backup status to database (elements: 8)
+0348.710 (1) Database dump (WordPress DB): Creation was completed already
+0348.719 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0348.753 (1) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0348.762 (1) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0348.770 (1) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0348.778 (1) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0348.785 (1) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0348.791 (1) Saving backup history. Total backup size: 31.2 MB
+0348.812 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0348.820 (1) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0348.840 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0348.848 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0348.864 (1) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0348.872 (1) An error condition has occurred for the first time during this job
+0348.883 (1) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0348.905 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0348.917 (1) Number of backup sets in history: 1; groups (db): 1
+0348.925 (1) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+0348.931 (1) This backup set is the backup set just made, so will not be deleted.
+0348.932 (1) Number of backup sets in history: 1; groups (files): 1
+0348.938 (1) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+0348.938 (1) This backup set is the backup set just made, so will not be deleted.
+0348.946 (1) This backup set is the backup set just made, so will not be deleted.
+0348.946 (1) This backup set is the backup set just made, so will not be deleted.
+0348.947 (1) This backup set is the backup set just made, so will not be deleted.
+0348.948 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0348.955 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0348.966 (1) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0348.985 (1) Resume backup (df1b097139f6, 1): finish run
+0349.005 (1) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+0349.017 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0349.025 (1) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0349.044 (1) No email will/can be sent - the user has not configured an email address.
+0349.057 (1) The backup has not finished; a resumption is scheduled
+0708.327 (2) Opened log file at time: Sat, 08 Jul 2023 07:59:16 +0000 on http://localhost/wordpress-6.2.2/wordpress
+0708.336 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+0708.344 (2) Free space on disk containing Updraft's temporary directory: 68141.2 MB
+0708.350 (2) Requesting backup semaphore lock (df1b097139f6)
+0708.364 (2) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+0708.372 (2) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0708.401 (2) Backup run: resumption=2, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (709s ago), job type=backup
+0708.409 (2) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0708.427 (2) Scheduling a resumption (3) after 300 seconds (1688803457) in case this run gets aborted
+0708.447 (2) Checking if we have a zip executable available
+0708.457 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0708.465 (2) Creation of backups of directories: already finished
+0708.474 (2) Saving backup status to database (elements: 8)
+0708.495 (2) Database dump (WordPress DB): Creation was completed already
+0708.503 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0708.535 (2) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0708.548 (2) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0708.554 (2) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0708.563 (2) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0708.570 (2) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0708.578 (2) Saving backup history. Total backup size: 31.2 MB
+0708.597 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0708.608 (2) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0708.629 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0708.637 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+0708.652 (2) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+0708.661 (2) An error condition has occurred for the first time during this job
+0708.675 (2) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0708.708 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0708.720 (2) Number of backup sets in history: 1; groups (db): 1
+0708.733 (2) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+0708.745 (2) This backup set is the backup set just made, so will not be deleted.
+0708.745 (2) Number of backup sets in history: 1; groups (files): 1
+0708.758 (2) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+0708.758 (2) This backup set is the backup set just made, so will not be deleted.
+0708.768 (2) This backup set is the backup set just made, so will not be deleted.
+0708.769 (2) This backup set is the backup set just made, so will not be deleted.
+0708.769 (2) This backup set is the backup set just made, so will not be deleted.
+0708.770 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0708.778 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0708.789 (2) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0708.806 (2) Resume backup (df1b097139f6, 2): finish run
+0708.814 (2) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+0708.829 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0708.838 (2) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+0708.859 (2) No email will/can be sent - the user has not configured an email address.
+0708.866 (2) The backup has not finished; a resumption is scheduled
+1068.338 (3) Opened log file at time: Sat, 08 Jul 2023 08:05:17 +0000 on http://localhost/wordpress-6.2.2/wordpress
+1068.347 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+1068.355 (3) Free space on disk containing Updraft's temporary directory: 68140.5 MB
+1068.362 (3) Requesting backup semaphore lock (df1b097139f6)
+1068.376 (3) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+1068.384 (3) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1068.410 (3) Backup run: resumption=3, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (1069s ago), job type=backup
+1068.419 (3) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1068.437 (3) Scheduling a resumption (4) after 300 seconds (1688803817) in case this run gets aborted
+1068.456 (3) Checking if we have a zip executable available
+1068.465 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1068.475 (3) Creation of backups of directories: already finished
+1068.485 (3) Saving backup status to database (elements: 8)
+1068.511 (3) Database dump (WordPress DB): Creation was completed already
+1068.522 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1068.571 (3) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1068.580 (3) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1068.590 (3) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1068.599 (3) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+1068.607 (3) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+1068.615 (3) Saving backup history. Total backup size: 31.2 MB
+1068.639 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1068.650 (3) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1068.673 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1068.682 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+1068.703 (3) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+1068.721 (3) An error condition has occurred for the first time during this job
+1068.736 (3) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1068.767 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1068.785 (3) Number of backup sets in history: 1; groups (db): 1
+1068.800 (3) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+1068.810 (3) This backup set is the backup set just made, so will not be deleted.
+1068.810 (3) Number of backup sets in history: 1; groups (files): 1
+1068.819 (3) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+1068.819 (3) This backup set is the backup set just made, so will not be deleted.
+1068.827 (3) This backup set is the backup set just made, so will not be deleted.
+1068.828 (3) This backup set is the backup set just made, so will not be deleted.
+1068.829 (3) This backup set is the backup set just made, so will not be deleted.
+1068.829 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1068.838 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1068.865 (3) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1068.888 (3) Resume backup (df1b097139f6, 3): finish run
+1068.897 (3) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+1068.910 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1068.918 (3) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1068.942 (3) No email will/can be sent - the user has not configured an email address.
+1068.950 (3) The backup has not finished; a resumption is scheduled
+1375.876 (4) Opened log file at time: Sat, 08 Jul 2023 08:10:24 +0000 on http://localhost/wordpress-6.2.2/wordpress
+1375.884 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+1375.890 (4) Free space on disk containing Updraft's temporary directory: 68137.7 MB
+1375.896 (4) Requesting backup semaphore lock (df1b097139f6)
+1375.913 (4) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+1375.919 (4) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1375.938 (4) Backup run: resumption=4, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (1376s ago), job type=backup
+1375.946 (4) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1375.960 (4) Scheduling a resumption (5) after 300 seconds (1688804124) in case this run gets aborted
+1375.972 (4) Checking if we have a zip executable available
+1375.978 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1375.982 (4) Creation of backups of directories: already finished
+1375.988 (4) Saving backup status to database (elements: 8)
+1376.004 (4) Database dump (WordPress DB): Creation was completed already
+1376.011 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1376.037 (4) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1376.042 (4) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1376.048 (4) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1376.054 (4) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+1376.061 (4) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+1376.066 (4) Saving backup history. Total backup size: 31.2 MB
+1376.081 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1376.087 (4) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1376.100 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1376.106 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+1376.117 (4) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+1376.124 (4) An error condition has occurred for the first time during this job
+1376.130 (4) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1376.142 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1376.149 (4) Number of backup sets in history: 1; groups (db): 1
+1376.154 (4) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+1376.160 (4) This backup set is the backup set just made, so will not be deleted.
+1376.161 (4) Number of backup sets in history: 1; groups (files): 1
+1376.166 (4) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+1376.166 (4) This backup set is the backup set just made, so will not be deleted.
+1376.176 (4) This backup set is the backup set just made, so will not be deleted.
+1376.176 (4) This backup set is the backup set just made, so will not be deleted.
+1376.177 (4) This backup set is the backup set just made, so will not be deleted.
+1376.177 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1376.181 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1376.188 (4) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1376.203 (4) Resume backup (df1b097139f6, 4): finish run
+1376.210 (4) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+1376.222 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1376.229 (4) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1376.243 (4) No email will/can be sent - the user has not configured an email address.
+1376.249 (4) The backup has not finished; a resumption is scheduled
+1738.889 (5) Opened log file at time: Sat, 08 Jul 2023 08:16:27 +0000 on http://localhost/wordpress-6.2.2/wordpress
+1738.895 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+1738.900 (5) Free space on disk containing Updraft's temporary directory: 68137 MB
+1738.906 (5) Requesting backup semaphore lock (df1b097139f6)
+1738.915 (5) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+1738.922 (5) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1738.941 (5) Backup run: resumption=5, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (1739s ago), job type=backup
+1738.948 (5) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1738.961 (5) Scheduling a resumption (6) after 300 seconds (1688804487) in case this run gets aborted
+1738.975 (5) Checking if we have a zip executable available
+1738.980 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1738.986 (5) Creation of backups of directories: already finished
+1738.990 (5) Saving backup status to database (elements: 8)
+1739.006 (5) Database dump (WordPress DB): Creation was completed already
+1739.013 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1739.038 (5) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1739.045 (5) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1739.050 (5) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1739.056 (5) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+1739.062 (5) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+1739.070 (5) Saving backup history. Total backup size: 31.2 MB
+1739.085 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1739.090 (5) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1739.103 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1739.108 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+1739.118 (5) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+1739.123 (5) An error condition has occurred for the first time during this job
+1739.130 (5) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1739.142 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1739.152 (5) Number of backup sets in history: 1; groups (db): 1
+1739.156 (5) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+1739.161 (5) This backup set is the backup set just made, so will not be deleted.
+1739.161 (5) Number of backup sets in history: 1; groups (files): 1
+1739.166 (5) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+1739.166 (5) This backup set is the backup set just made, so will not be deleted.
+1739.170 (5) This backup set is the backup set just made, so will not be deleted.
+1739.171 (5) This backup set is the backup set just made, so will not be deleted.
+1739.171 (5) This backup set is the backup set just made, so will not be deleted.
+1739.172 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1739.177 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1739.186 (5) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1739.197 (5) Resume backup (df1b097139f6, 5): finish run
+1739.203 (5) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+1739.213 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1739.220 (5) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+1739.234 (5) No email will/can be sent - the user has not configured an email address.
+1739.239 (5) The backup has not finished; a resumption is scheduled
+2102.047 (6) Opened log file at time: Sat, 08 Jul 2023 08:22:30 +0000 on http://localhost/wordpress-6.2.2/wordpress
+2102.059 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+2102.067 (6) Free space on disk containing Updraft's temporary directory: 68136.6 MB
+2102.075 (6) Requesting backup semaphore lock (df1b097139f6)
+2102.088 (6) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+2102.096 (6) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2102.115 (6) Backup run: resumption=6, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (2102s ago), job type=backup
+2102.123 (6) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2102.144 (6) Scheduling a resumption (7) after 300 seconds (1688804850) in case this run gets aborted
+2102.163 (6) Checking if we have a zip executable available
+2102.171 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2102.179 (6) Creation of backups of directories: already finished
+2102.187 (6) Saving backup status to database (elements: 8)
+2102.206 (6) Database dump (WordPress DB): Creation was completed already
+2102.218 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2102.251 (6) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2102.259 (6) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2102.268 (6) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2102.275 (6) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+2102.281 (6) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+2102.288 (6) Saving backup history. Total backup size: 31.2 MB
+2102.306 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2102.317 (6) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2102.335 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2102.347 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+2102.362 (6) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+2102.372 (6) An error condition has occurred for the first time during this job
+2102.384 (6) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2102.408 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2102.422 (6) Number of backup sets in history: 1; groups (db): 1
+2102.431 (6) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+2102.443 (6) This backup set is the backup set just made, so will not be deleted.
+2102.443 (6) Number of backup sets in history: 1; groups (files): 1
+2102.452 (6) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+2102.452 (6) This backup set is the backup set just made, so will not be deleted.
+2102.463 (6) This backup set is the backup set just made, so will not be deleted.
+2102.464 (6) This backup set is the backup set just made, so will not be deleted.
+2102.464 (6) This backup set is the backup set just made, so will not be deleted.
+2102.465 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2102.474 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2102.489 (6) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2102.516 (6) Resume backup (df1b097139f6, 6): finish run
+2102.526 (6) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+2102.548 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2102.559 (6) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2102.590 (6) No email will/can be sent - the user has not configured an email address.
+2102.604 (6) The backup has not finished; a resumption is scheduled
+2531.152 (7) Opened log file at time: Sat, 08 Jul 2023 08:29:39 +0000 on http://localhost/wordpress-6.2.2/wordpress
+2531.160 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 10M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+2531.166 (7) Free space on disk containing Updraft's temporary directory: 68127.5 MB
+2531.172 (7) Requesting backup semaphore lock (df1b097139f6)
+2531.184 (7) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+2531.191 (7) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2531.213 (7) Backup run: resumption=7, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (2531s ago), job type=backup
+2531.219 (7) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2531.233 (7) Scheduling a resumption (8) after 300 seconds (1688805279) in case this run gets aborted
+2531.251 (7) Checking if we have a zip executable available
+2531.257 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2531.265 (7) Creation of backups of directories: already finished
+2531.272 (7) Saving backup status to database (elements: 8)
+2531.288 (7) Database dump (WordPress DB): Creation was completed already
+2531.298 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2531.332 (7) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2531.338 (7) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2531.346 (7) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2531.353 (7) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+2531.359 (7) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+2531.368 (7) Saving backup history. Total backup size: 31.2 MB
+2531.387 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2531.397 (7) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2531.416 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2531.426 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+2531.438 (7) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+2531.447 (7) An error condition has occurred for the first time during this job
+2531.455 (7) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2531.477 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2531.487 (7) Number of backup sets in history: 1; groups (db): 1
+2531.497 (7) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+2531.506 (7) This backup set is the backup set just made, so will not be deleted.
+2531.506 (7) Number of backup sets in history: 1; groups (files): 1
+2531.517 (7) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+2531.517 (7) This backup set is the backup set just made, so will not be deleted.
+2531.526 (7) This backup set is the backup set just made, so will not be deleted.
+2531.527 (7) This backup set is the backup set just made, so will not be deleted.
+2531.527 (7) This backup set is the backup set just made, so will not be deleted.
+2531.528 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2531.537 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2531.551 (7) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2531.572 (7) Resume backup (df1b097139f6, 7): finish run
+2531.579 (7) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+2531.593 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2531.602 (7) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+2531.622 (7) No email will/can be sent - the user has not configured an email address.
+2531.633 (7) The backup has not finished; a resumption is scheduled
+17029.952 (8) Opened log file at time: Sat, 08 Jul 2023 12:31:18 +0000 on http://localhost/wordpress-6.2.2/wordpress
+17029.965 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.9M | 6M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+17029.972 (8) Free space on disk containing Updraft's temporary directory: 68001.2 MB
+17029.982 (8) Requesting backup semaphore lock (df1b097139f6)
+17029.993 (8) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+17030.000 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.031 (8) Backup run: resumption=8, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (17030s ago), job type=backup
+17030.039 (8) Long time past since expected resumption time: approx expected=1688805279.8, now=1688819478.6, diff=14198.8
+17030.047 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.068 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+17030.076 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.096 (8) Scheduling a resumption (9) after 300 seconds (1688819778) in case this run gets aborted
+17030.288 (8) Checking if we have a zip executable available
+17030.300 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+17030.306 (8) Creation of backups of directories: already finished
+17030.312 (8) Saving backup status to database (elements: 8)
+17030.432 (8) Database dump (WordPress DB): Creation was completed already
+17030.442 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+17030.486 (8) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17030.496 (8) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17030.510 (8) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17030.518 (8) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+17030.527 (8) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+17030.535 (8) Saving backup history. Total backup size: 31.2 MB
+17030.556 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+17030.565 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.586 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+17030.595 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+17030.618 (8) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+17030.631 (8) An error condition has occurred for the first time during this job
+17030.640 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.662 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17030.677 (8) Number of backup sets in history: 1; groups (db): 1
+17030.687 (8) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+17030.700 (8) This backup set is the backup set just made, so will not be deleted.
+17030.700 (8) Number of backup sets in history: 1; groups (files): 1
+17030.706 (8) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+17030.707 (8) This backup set is the backup set just made, so will not be deleted.
+17030.720 (8) This backup set is the backup set just made, so will not be deleted.
+17030.720 (8) This backup set is the backup set just made, so will not be deleted.
+17030.721 (8) This backup set is the backup set just made, so will not be deleted.
+17030.722 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17030.729 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+17030.742 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.758 (8) Resume backup (df1b097139f6, 8): finish run
+17030.774 (8) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+17030.786 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17030.794 (8) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17030.808 (8) No email will/can be sent - the user has not configured an email address.
+17030.815 (8) The backup has not finished; a resumption is scheduled
+17811.058 (9) Opened log file at time: Sat, 08 Jul 2023 12:44:19 +0000 on http://localhost/wordpress-6.2.2/wordpress
+17811.071 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.2-1ubuntu2.13 (apache2handler, Linux anjatiana 5.19.0-38-generic #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2 x86_64) MySQL: 8.0.33-0ubuntu0.22.04.2 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.8M | 14M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: N
+17811.078 (9) Free space on disk containing Updraft's temporary directory: 67988.4 MB
+17811.087 (9) Requesting backup semaphore lock (df1b097139f6)
+17811.109 (9) [Info] Lock (updraft_lock_df1b097139f6, wp_options) acquired
+17811.116 (9) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17811.134 (9) Backup run: resumption=9, nonce=df1b097139f6, file_nonce=df1b097139f6 begun at=1688802448 (17811s ago), job type=backup
+17811.143 (9) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17811.159 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+17811.167 (9) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17811.183 (9) Scheduling a resumption (10) after 300 seconds (1688820559); but the job will then be aborted unless something happens this time
+17811.199 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+17811.206 (9) Creation of backups of directories: already finished
+17811.213 (9) Saving backup status to database (elements: 8)
+17811.232 (9) Database dump (WordPress DB): Creation was completed already
+17811.242 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+17811.274 (9) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17811.280 (9) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17811.287 (9) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17811.294 (9) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-others.zip: others: This file has not yet been successfully uploaded: will queue
+17811.300 (9) backup_2023-07-08-0747_Exportimport_Malagasy_df1b097139f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+17811.307 (9) Saving backup history. Total backup size: 31.2 MB
+17811.325 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+17811.333 (9) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17811.350 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+17811.357 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-312ed6d9d879106b33a11f6c05c4b5a4)
+17811.370 (9) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (stream_socket_client(): php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution
+stream_socket_client(): Unable to connect to ssl://auth.updraftplus.com:443 (php_network_getaddresses: getaddrinfo for auth.updraftplus.com failed: Temporary failure in name resolution)) (http_request_failed)
+17811.377 (9) An error condition has occurred for the first time during this job
+17811.385 (9) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17811.404 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17811.413 (9) Number of backup sets in history: 1; groups (db): 1
+17811.419 (9) Examining (for databases) backup set with group_id=0, nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+17811.426 (9) This backup set is the backup set just made, so will not be deleted.
+17811.426 (9) Number of backup sets in history: 1; groups (files): 1
+17811.433 (9) Examining (for files) backup set with nonce=df1b097139f6, datestamp=1688802448 (Jul 08 2023 07:47:28)
+17811.434 (9) This backup set is the backup set just made, so will not be deleted.
+17811.440 (9) This backup set is the backup set just made, so will not be deleted.
+17811.440 (9) This backup set is the backup set just made, so will not be deleted.
+17811.440 (9) This backup set is the backup set just made, so will not be deleted.
+17811.441 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17811.449 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+17811.461 (9) PHP event: code E_NOTICE: iconv(): Detected an illegal character in input string (line 419, wp-content/plugins/better-wp-security/vendor-prod/symfony/polyfill-mbstring/Mbstring.php)
+17811.485 (9) Resume backup (df1b097139f6, 9): finish run
+17811.499 (9) [Info] Lock option (updraft_lock_df1b097139f6, wp_options) released
+17811.513 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+17811.531 (9) No email will/can be sent - the user has not configured an email address.
+17811.538 (9) The backup attempt has finished, apparently unsuccessfully
